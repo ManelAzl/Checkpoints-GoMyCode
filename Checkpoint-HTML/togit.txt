@@ -1,0 +1,23 @@
+Step-by-Step Process
+2. Create a New GitHub Repository
+Don't initialize with README (if you already have local files)
+Copy the repository URL (HTTPS or SSH)
+3. Connect Local Repository to GitHub
+# Add the remote GitHub repository (replace URL with yours)
+git remote add origin https://github.com/your-username/your-repo.git
+# Verify the remote was added
+git remote -v
+4. Push Your Files
+# Stage your files
+git add .  # Adds all files
+# OR
+git add filename.txt  # Adds specific file
+# Commit your changes
+git commit -m "Initial commit"
+# Push to GitHub (main branch)
+git push -u origin main
+Subsequent Pushes (After Initial Setup)
+# Just these three commands after making changes:
+git add .
+git commit -m "Your commit message"
+git push
