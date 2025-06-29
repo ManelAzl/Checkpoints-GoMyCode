@@ -1,0 +1,17 @@
+.divone {
+    display: flex;
+    background-color: rgb(245, 213, 242);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+.divtwo {
+    display: flex;
+    background-color: rgb(192, 229, 214);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
